@@ -9,13 +9,13 @@
 import UIKit
 
 //Declare Global Variables to collect data
-var Towels = "";
-var WashCloths = "";
-var Bathmat = "";
-var BlueBag = "";
-var Sheets = "";
-var SheetsTwin = "";
-var SheetsQueen = "";
+var Towels = ""
+var WashCloths = ""
+var Bathmat = ""
+var BlueBag = ""
+var Sheets = ""
+var SheetsTwin = ""
+var SheetsQueen = ""
 
 class ViewControllerLinens: UIViewController {
 
@@ -26,8 +26,16 @@ class ViewControllerLinens: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+        let navBar = self.navigationController?.navigationBar
+        navBar?.barTintColor = .familyhouseGreen
+        navBar?.tintColor = UIColor.white
+        navBar?.isTranslucent = false
+        navBar?.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        //Change title
+       
     }
     
 

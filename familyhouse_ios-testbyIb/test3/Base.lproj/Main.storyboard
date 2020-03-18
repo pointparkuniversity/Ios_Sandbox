@@ -32,7 +32,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="R5o-Xf-9cT" kind="show" id="EhX-uX-Qvp"/>
+                                    <segue destination="R5o-Xf-9cT" kind="show" id="vAg-J9-9QK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J63-cB-Ucz">
@@ -81,23 +81,23 @@
             </objects>
             <point key="canvasLocation" x="327.536231884058" y="505.58035714285711"/>
         </scene>
-        <!--Alerts-->
+        <!--ALERTS-->
         <scene sceneID="StS-FG-g6V">
             <objects>
-                <viewController id="Gqz-eC-v35" sceneMemberID="viewController">
+                <viewController id="Gqz-eC-v35" customClass="ViewControllerAlerts" customModule="test3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0vB-88-Pdy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SW5-EF-9wJ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Alerts" id="PpV-7J-I2e"/>
+                    <navigationItem key="navigationItem" title="ALERTS" id="PpV-7J-I2e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfE-Xy-spu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1745" y="1061"/>
         </scene>
-        <!--Linen Request-->
+        <!--LINENS-->
         <scene sceneID="YPa-WC-lQd">
             <objects>
                 <viewController id="R5o-Xf-9cT" customClass="ViewControllerLinens" customModule="test3" customModuleProvider="target" sceneMemberID="viewController">
@@ -283,7 +283,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T4M-wN-UKB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Linen Request" id="I8e-oa-4ED"/>
+                    <navigationItem key="navigationItem" title="LINENS" id="I8e-oa-4ED"/>
                     <connections>
                         <outlet property="GuestsField" destination="ySZ-xt-wrB" id="hRE-Y4-0Bo"/>
                         <outlet property="HouseField" destination="Dkz-xn-jkt" id="QJG-UF-URu"/>
@@ -292,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GV7-f8-sit" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1311.5942028985507" y="261.16071428571428"/>
+            <point key="canvasLocation" x="2221.739130434783" y="261.16071428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3tN-mq-hgx">
@@ -302,8 +302,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1ww-Hy-ew9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dGa-bH-xcW">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gEO-nS-nkq"/>
                     </connections>
@@ -312,17 +316,17 @@
             </objects>
             <point key="canvasLocation" x="-684" y="548"/>
         </scene>
-        <!--Events-->
+        <!--EVENTS-->
         <scene sceneID="lRR-oz-zVb">
             <objects>
-                <viewController id="mKL-EA-Bnb" sceneMemberID="viewController">
+                <viewController id="mKL-EA-Bnb" customClass="ViewControllerEvents" customModule="test3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mcH-22-tS3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ml1-1w-hhv"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Events" id="fiI-KW-kLP"/>
+                    <navigationItem key="navigationItem" title="EVENTS" id="fiI-KW-kLP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BTJ-PT-YCy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,7 +335,7 @@
         <!--FAQ-->
         <scene sceneID="5KX-Fu-8rL">
             <objects>
-                <viewController id="qeK-rB-d0e" sceneMemberID="viewController">
+                <viewController id="qeK-rB-d0e" customClass="ViewControllerFaq" customModule="test3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dLw-bH-zAH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
