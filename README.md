@@ -65,3 +65,11 @@ This is a sandbox that will be used during the semester, while we learn to progr
 
 ```
 
+## FH Notifications for IOS
+How to run the Notifications
+- Open up Xcode
+- Open up the workspace (fh.xcworkspace)
+- Run the XCode locally to ensure it works
+- Take your USB and link it up to your iPhone, then execute it to your phone
+- Run the app and you will see "Welcome to App Notifications"
+- Close the App
